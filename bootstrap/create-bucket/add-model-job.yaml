@@ -91,7 +91,7 @@ spec:
               pip install awscli
 
               # Install MinIO Client (mc)
-              curl -O https://dl.min.io/client/mc/release/linux-amd64/mc
+              curl -O --location https://dl.min.io/client/mc/release/linux-amd64/mc
               chmod +x mc
 
               # Set up AWS credentials
