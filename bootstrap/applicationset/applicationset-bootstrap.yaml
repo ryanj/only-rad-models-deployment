@@ -9,8 +9,8 @@ spec:
       elements:
       - cluster: in-cluster
         name: bucket-creation-minio
-        repoURL: https://github.com/redhat-gpte-devopsautomation/only-rad-models-deployment.git
-        targetRevision: dev
+        repoURL: https://github.com/ryanj/only-rad-models-deployment.git
+        targetRevision: boto3-dep
         path: bootstrap/create-bucket    
       - cluster: in-cluster
         name: ic-user-projects
